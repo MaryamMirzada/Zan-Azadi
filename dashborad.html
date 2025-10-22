@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #e0f7ff;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3em;
+        color: rgb(174, 220, 221);
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+      }
+
+      p {
+        font-size: 1.5em;
+        color: #de8b6a;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Welcome!</h1>
+      <p>You will be redirected to Home Page shortly...</p>
+    </div>
+
+    <script>
+      setTimeout(() => {
+        const user = sessionStorage.getItem("username");
+        if (user) {
+          window.location.href = "index.html";
+        } else {
+          window.location.href = "login.html";
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>

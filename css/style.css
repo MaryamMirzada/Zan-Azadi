@@ -1,0 +1,336 @@
+* {
+  overflow-x: none;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: initial;
+}
+.nav-item:hover {
+  color: #de8b6a;
+}
+
+.headdiv {
+  background-image: url("../woman/header/woman.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.5s ease-in, transform 0.5s ease-out,
+    opacity 0.5s ease;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.collapse {
+  float: right;
+}
+#headerspan {
+  color: #e8e1d0;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+u {
+  color: white;
+}
+#headerspan1 {
+  color: black;
+  font-size: 40px;
+}
+
+#headerspan2 {
+  color: #e8e1d0;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header {
+  position: absolute;
+  margin-top: 10rem;
+  color: black;
+  right: 70px;
+  text-align: center;
+  background-color: #e8e1d0;
+  border-radius: 20px;
+  padding: 20px;
+  opacity: 0.8;
+}
+#headbtn:hover {
+  cursor: pointer;
+  background-color: #de8b6a;
+  opacity: 0.3;
+}
+
+#headbtn {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(174, 220, 221);
+  border: none;
+  border-radius: 5px;
+  transition: 0.7s ease-in-out;
+}
+
+.main {
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+}
+.main h1 {
+  color: #de8b6a;
+  font-weight: bold;
+}
+
+.container-fluid h1 {
+  color: white;
+  padding: 5px;
+}
+.row {
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.col {
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 2px 2px 12px rgb(173, 164, 164);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.col:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.col h3 {
+  color: #de8b6a;
+}
+.col button {
+  background-color: rgb(174, 220, 221);
+  border: none;
+  position: relative;
+  bottom: 10px;
+  width: 100px;
+  border-radius: 20px;
+}
+.container-fluid h1 {
+  color: black;
+}
+.AfghanSuccessPart {
+  background-color: #fcf9ea;
+  text-align: left;
+  display: flex;
+  gap: 0px;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.AfghanSuccessPart p {
+  background-color: white;
+  padding: 17px;
+}
+.SuccessPart {
+  background-color: #fcf9ea;
+}
+.SuccessPart h1 {
+  color: #de8b6a;
+  padding: 10px 0px 0px 20px;
+}
+.SuccessCard {
+  display: flex;
+  padding: 0px 20px;
+  gap: 20px;
+  background-color: #fcf9ea;
+  margin-top: 0px;
+}
+.SuccessCard {
+  margin-top: 10px;
+  text-align: center;
+}
+.button {
+  background-color: #e8e1d0;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.7s ease-in-out;
+  position: relative;
+}
+#btn2 {
+  position: relative;
+  top: 44px;
+}
+#btn3 {
+  top: 20px;
+}
+.button:hover {
+  background-color: #de8b6a;
+  color: white;
+  opacity: 0.3;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fcf9ea;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+.NumSection {
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+.NumSectionpart1 {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  padding: 10px 2px 0px 10px;
+}
+.NumSection h2 {
+  color: #de8b6a;
+}
+#footer {
+  background-color: #de8b6a;
+  color: white;
+}
+.footerLink {
+  color: white;
+}
+.footer1 {
+  text-align: center;
+}
+.footerLink p {
+  text-align: center;
+}
+.footerLink a {
+  position: relative;
+  top: 100px;
+}
+.submit {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+}
+.submit:hover {
+  background-color: white;
+}
+.footerLink p {
+  padding: 5px 0px 0px 20px;
+}
+#para {
+  text-align: center;
+  margin: 20px;
+}
+@media (max-width: 480px) {
+  #qaderiCard {
+    height: 390px;
+  }
+  #btn2 {
+    position: relative;
+    top: 15px;
+  }
+  #froghCard {
+    height: 390px;
+  }
+  #btn3 {
+    position: relative;
+    top: 6px;
+  }
+  .NumSectionpart1 {
+    display: inline;
+  }
+
+  .footer {
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  .AfghanSuccessPart {
+    display: inline;
+  }
+  .row {
+    margin: 10px;
+
+    justify-content: center;
+    align-items: stretch;
+  }
+  .col {
+    margin: 10px;
+  }
+
+  .SuccessCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+  }
+  .Linkimg {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+  }
+  .SuccedImg {
+    width: 100%;
+  }
+  .header {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .AfghanSuccessPart {
+    display: inline;
+  }
+  .issuePart {
+    left: 100px;
+  }
+  .SuccedImg {
+    width: 100%;
+  }
+  .row {
+    margin: 10px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .SuccessCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 70px;
+    margin: 10px 0px;
+  }
+  .footerLink p {
+    font-size: 15px;
+  }
+  .Linkimg {
+    position: relative;
+    bottom: 100px;
+  }
+}
+@media (max-width: 1280px) {
+  .row {
+    justify-content: center;
+    display: inline;
+    flex-wrap: wrap;
+  }
+}
